@@ -1,0 +1,17 @@
+.generic-content-container {
+/*this breaks BEM, but is done this way because the instructor wants to teach a lesson in specificity*/
+P {
+	line-height: 1.65;
+	
+	margin: 1.8rem 0;
+
+	@mixin atSmall {
+		font-size: 1.25rem;
+	}
+ }
+
+ p a {
+ 	font-weight: 700;
+
+ }
+}
