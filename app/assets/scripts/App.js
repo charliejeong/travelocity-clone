@@ -26,7 +26,7 @@ document.querySelectorAll(".open-modal").forEach(el => {
 })
 
 
-let mobileMenu = new MobileMenu();
+
 
 if (module.hot) {
 	module.hot.accept()
