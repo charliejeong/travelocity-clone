@@ -1,0 +1,18 @@
+.client-area{
+	padding: 30px;
+
+	&__form {
+		display: flex;
+
+	}
+
+	&__input {
+		flex: 1;
+		border: 2px solid $mainBlue;
+		border-radius: 4px;
+	}
+
+	&__error {
+		color: red;
+	}
+}
